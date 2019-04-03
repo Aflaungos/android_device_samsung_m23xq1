@@ -10,6 +10,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # APEX's
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Include GSI keys
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+
 PRODUCT_SHIPPING_API_LEVEL := 31
 
 # AVB

@@ -104,6 +104,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
     libtinyxml2_1 \
+    memtrack.default \
+    vndservicemanager \
     gralloc.default
 
 # Boot animation

@@ -120,6 +120,12 @@ TARGET_USES_MKE2FS := true
 # Vibrator
 $(call soong_config_set,samsungVibratorVars,duration_amplitude,true)
 
+# RenderScript
+OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
+
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 

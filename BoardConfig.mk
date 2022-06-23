@@ -114,6 +114,7 @@ TARGET_BOARD_PLATFORM := lito
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop

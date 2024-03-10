@@ -70,5 +70,12 @@ TARGET_COPY_OUT_PRODUCT := product
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := lito
 
+# Recovery
+BOARD_INCLUDE_RECOVERY_DTBO := true
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
+TARGET_USES_MKE2FS := true
+
 # Inherit from the proprietary version
 include vendor/samsung/m23xq/BoardConfigVendor.mk

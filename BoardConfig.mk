@@ -66,5 +66,9 @@ TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := lito
+
 # Inherit from the proprietary version
 include vendor/samsung/m23xq/BoardConfigVendor.mk

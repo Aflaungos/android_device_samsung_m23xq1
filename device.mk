@@ -65,6 +65,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.0.vendor \
     vendor.qti.hardware.bluetooth_sar@1.1.vendor \
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.5-legacy.vendor \
+    libcamera2ndk_vendor \
+    vendor.qti.hardware.camera.device@1.0.vendor \
+    vendor.qti.hardware.camera.postproc@1.0-service-impl.vendor \
+    vendor.qti.hardware.camera.postproc@1.0.vendor
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi

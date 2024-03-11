@@ -15,6 +15,35 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
+    android.hardware.audio.common-util \
+    android.hardware.audio.common@6.0-util \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio@6.0-impl \
+    android.hardware.soundtrigger@2.3-impl \
+    audio.primary.default \
+    audio.primary.lito \
+    audio.r_submix.default \
+    audio.sec_primary.default \
+    audio.usb.default \
+    libqcompostprocbundle.so \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libasphere \
+    libaudioeffectoffload \
+    libaudiopreprocessing \
+    libaudiosaplus_sec \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
+    libshoebox \
+    libtinycompress
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # AVB
 PRODUCT_PACKAGES += \
     q-gsi.avbpubkey \

@@ -112,6 +112,13 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.3-service.clearkey
+
+PRODUCT_PACKAGES += \
+    libdrm
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd

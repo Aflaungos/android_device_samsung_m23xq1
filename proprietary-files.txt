@@ -1763,7 +1763,6 @@ vendor/lib/libhand_interaction.uniplugin@1.0.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libhfp.so
-vendor/lib/libhidltransport.so
 vendor/lib/libhigh_dynamic_range_bokeh.so
 vendor/lib/libHprVisualEffect.so
 vendor/lib/libhqm_hwparam.so
@@ -1976,7 +1975,6 @@ vendor/lib64/libgralloc.qti.so
 vendor/lib64/libgrallocusage.so
 vendor/lib64/libhandgesture.arcsoft.so
 vendor/lib64/libhand_interaction.uniplugin@1.0.so
-vendor/lib64/libhidltransport.so
 vendor/lib64/libhigh_dynamic_range_bokeh.so
 vendor/lib64/libhistogram.so
 vendor/lib64/libHprVisualEffect.so

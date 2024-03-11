@@ -1768,7 +1768,6 @@ vendor/lib/libhigh_dynamic_range_bokeh.so
 vendor/lib/libHprVisualEffect.so
 vendor/lib/libhqm_hwparam.so
 vendor/lib/libhta_hexagon_runtime.so
-vendor/lib/libhwbinder.so
 vendor/lib/libhypermotion_core.so
 vendor/lib/libhypermotion_interface.so
 vendor/lib/libhypervintf.so
@@ -1984,7 +1983,6 @@ vendor/lib64/libHprVisualEffect.so
 vendor/lib64/libhqm_hwparam.so
 vendor/lib64/libhta.so
 vendor/lib64/libhta_hexagon_runtime.so
-vendor/lib64/libhwbinder.so
 vendor/lib64/libhyper.so
 vendor/lib64/libhypermotion_core.so
 vendor/lib64/libhypermotion_interface.so

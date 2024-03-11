@@ -15,6 +15,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# Atrace
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \

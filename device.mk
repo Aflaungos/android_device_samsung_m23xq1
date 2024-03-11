@@ -169,3 +169,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/samsung/m23xq/m23xq-vendor.mk)
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.samsung

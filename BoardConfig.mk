@@ -101,6 +101,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
+# Vibrator
+$(call soong_config_set,samsungVibratorVars,duration_amplitude,true)
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 

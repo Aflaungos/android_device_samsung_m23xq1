@@ -146,8 +146,11 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.multihal \
+    android.hardware.sensors-service.samsung-multihal \
     libsensorndkbridge
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \

@@ -1219,7 +1219,6 @@ vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.snap@1.2-service
 vendor/bin/hw/vendor.samsung.hardware.sysinput@1.2-service
-vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.hdm@1.1-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.kg@1.0-service
@@ -1245,7 +1244,6 @@ vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.snap@1.2-service.rc
 vendor/etc/init/vendor.samsung.hardware.sysinput@1.2-service.rc
-vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.hdm@1.1-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.kg@1.0-service.rc
@@ -1256,7 +1254,6 @@ vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy
 -vendor/etc/vintf/manifest/power-samsung.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.hqm@1.0-manifest.xml
--vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.hdm@1.1-manifest.xml
 -vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml
 vendor/lib/hw/vendor.samsung.hardware.snap@1.2-impl.so

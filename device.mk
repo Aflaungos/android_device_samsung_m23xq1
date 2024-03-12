@@ -142,6 +142,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
 # Overlays
+PRODUCT_PACKAGES += \
+    WifiOverlay \
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Partitions
